@@ -1,0 +1,11 @@
+{
+  "name": "station-nodes",
+  "version": "1.0.0",
+  "description": "Station nodes for Distributed Battery-Swapping Coordination System",
+  "main": "station-server.js",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

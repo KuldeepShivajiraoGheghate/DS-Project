@@ -1,0 +1,20 @@
+{
+  "name": "distributed-battery-system",
+  "version": "1.0.0",
+  "description": "Distributed Battery-Swapping Coordination System (FA-1)",
+  "main": "gateway/server.js",
+  "scripts": {
+    "install:all": "npm install && cd gateway && npm install && cd ../stations && npm install && cd ../frontend && npm install",
+    "station:a": "node stations/station-a/server.js",
+    "station:b": "node stations/station-b/server.js",
+    "station:c": "node stations/station-c/server.js",
+    "gateway": "node gateway/server.js",
+    "frontend": "npm run dev --prefix frontend",
+    "start:backend": "concurrently -n \"GATEWAY,STA-A,STA-B,STA-C\" -c \"magenta,green,blue,yellow\" \"npm run gateway\" \"npm run station:a\" \"npm run station:b\" \"npm run station:c\"",
+    "start:all": "concurrently -k -n \"GATEWAY,STA-A,STA-B,STA-C,FRONTEND\" -c \"magenta,green,blue,yellow,cyan\" \"npm run gateway\" \"npm run station:a\" \"npm run station:b\" \"npm run station:c\" \"npm run frontend\"",
+    "test:flow": "node scripts/test-distributed-flow.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "BAT-B01",
+    "type": "Lithium-Ion Standard (75kWh)",
+    "charge": 96,
+    "health": 99,
+    "status": "AVAILABLE",
+    "stationId": "STA-002",
+    "reservedBy": null,
+    "temperature": "25°C",
+    "cycles": 95
+  },
+  {
+    "id": "BAT-B02",
+    "type": "LFP High-Rate Fast-Charge (90kWh)",
+    "charge": 92,
+    "health": 97,
+    "status": "AVAILABLE",
+    "stationId": "STA-002",
+    "reservedBy": null,
+    "temperature": "27°C",
+    "cycles": 140
+  },
+  {
+    "id": "BAT-B03",
+    "type": "Solid-State Extended Range (120kWh)",
+    "charge": 54,
+    "health": 98,
+    "status": "CHARGING",
+    "stationId": "STA-002",
+    "reservedBy": null,
+    "temperature": "33°C",
+    "cycles": 52
+  },
+  {
+    "id": "BAT-B04",
+    "type": "Lithium-Ion Standard (75kWh)",
+    "charge": 90,
+    "health": 94,
+    "status": "AVAILABLE",
+    "stationId": "STA-002",
+    "reservedBy": null,
+    "temperature": "28°C",
+    "cycles": 204
+  },
+  {
+    "id": "BAT-B05",
+    "type": "LFP High-Rate Fast-Charge (90kWh)",
+    "charge": 45,
+    "health": 96,
+    "status": "CHARGING",
+    "stationId": "STA-002",
+    "reservedBy": null,
+    "temperature": "31°C",
+    "cycles": 178
+  },
+  {
+    "id": "BAT-B06",
+    "type": "Solid-State Extended Range (120kWh)",
+    "charge": 98,
+    "health": 100,
+    "status": "AVAILABLE",
+    "stationId": "STA-002",
+    "reservedBy": null,
+    "temperature": "24°C",
+    "cycles": 32
+  }
+]

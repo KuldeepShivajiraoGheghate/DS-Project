@@ -1,0 +1,70 @@
+[
+  {
+    "id": "BAT-C01",
+    "type": "Solid-State Extended Range (120kWh)",
+    "charge": 89,
+    "health": 99,
+    "status": "RESERVED",
+    "stationId": "STA-003",
+    "reservedBy": "EV-USER-912",
+    "temperature": "25°C",
+    "cycles": 48
+  },
+  {
+    "id": "BAT-A67",
+    "type": "Lithium-Ion Standard (75kWh)",
+    "charge": 95,
+    "health": 97,
+    "status": "AVAILABLE",
+    "stationId": "STA-003",
+    "reservedBy": null,
+    "temperature": "35°C",
+    "cycles": 112
+  },
+  {
+    "id": "BAT-C03",
+    "type": "LFP High-Rate Fast-Charge (90kWh)",
+    "charge": 93,
+    "health": 96,
+    "status": "AVAILABLE",
+    "stationId": "STA-003",
+    "reservedBy": null,
+    "temperature": "28°C",
+    "cycles": 135
+  },
+  {
+    "id": "BAT-A83",
+    "type": "Lithium-Ion Standard (75kWh)",
+    "charge": 95,
+    "health": 92,
+    "status": "RESERVED",
+    "stationId": "STA-003",
+    "reservedBy": "EV-DRIVER-101",
+    "temperature": "35°C",
+    "cycles": 90,
+    "vehicleId": "KA-01-EV-2024",
+    "reservedAt": "2026-10-08T13:24:52.626Z"
+  },
+  {
+    "id": "BAT-A97",
+    "type": "Solid-State Extended Range (120kWh)",
+    "charge": 95,
+    "health": 93,
+    "status": "AVAILABLE",
+    "stationId": "STA-003",
+    "reservedBy": null,
+    "temperature": "35°C",
+    "cycles": 43
+  },
+  {
+    "id": "BAT-C06",
+    "type": "LFP High-Rate Fast-Charge (90kWh)",
+    "charge": 94,
+    "health": 95,
+    "status": "AVAILABLE",
+    "stationId": "STA-003",
+    "reservedBy": null,
+    "temperature": "27°C",
+    "cycles": 160
+  }
+]

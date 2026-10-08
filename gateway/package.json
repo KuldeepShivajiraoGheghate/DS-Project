@@ -1,0 +1,12 @@
+{
+  "name": "gateway-middleware",
+  "version": "1.0.0",
+  "description": "API Gateway, Failure Detector, Process Controller, and WebSocket Hub for Distributed Battery System",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
